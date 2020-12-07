@@ -1,0 +1,100 @@
+ create table users(
+ id serial primary key,
+ name varchar(100),
+ age integer);
+
+ create table autos(
+ id serial primary key,
+ model varchar(100),
+ color varchar(100),
+ user_id integer references users(id));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
